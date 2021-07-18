@@ -8,4 +8,59 @@
     /* -- Text Colors --*/
     --clr-text-p: hsla(0, 0%, 100%, 0.75);
     --clr-text-h: hsl(0, 0%, 95%);
+
+    /* -- Font Family -- */
+    --ff-headings: 'Big Shoulders Display';
+    --ff-paragraphs: 'Lexend Deca';   
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+/***** Global Styles *****/
+html {
+    font-size: 15px;
+}
+
+.container {
+    border-radius: 30px;
+}
+
+.third {
+    padding: 10%;
+}
+
+h1 {
+    font-family: var(--ff-headings);
+    color: var(--clr-text-h);
+    font-size: 3rem;
+    letter-spacing: 1px;
+}
+
+p {
+    font-family: var(--ff-paragraphs);
+    color: var(--clr-text-p);
+}
+
+button {
+    padding: 5%;
+    border-style: none;
+    border-radius: 25px;
+    color: --;
+}
+
+/**** Section Styles ****/
+#sedan {
+    background-color: var(--clr-bg-sedan);
+}
+
+#suv {
+    background-color: var(--clr-bg-suv);
+}
+
+#luxury {
+    background-color: var(--clr-bg-luxury);
 }
