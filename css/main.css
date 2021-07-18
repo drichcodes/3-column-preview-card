@@ -1,0 +1,11 @@
+@charset "UTF-8";
+:root {
+    /* -- Background Colors -- */
+    --clr-bg-sedan: hsl(31,77%,52%);
+    --clr-bg-suv: hsl(184, 100%, 22%);
+    --clr-bg-luxury: hsl(179, 100%, 13%);
+    
+    /* -- Text Colors --*/
+    --clr-text-p: hsla(0, 0%, 100%, 0.75);
+    --clr-text-h: hsl(0, 0%, 95%);
+}
