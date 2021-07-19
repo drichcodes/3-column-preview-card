@@ -49,13 +49,17 @@ p {
     line-height: 2em;
     margin-bottom: 30px;
     letter-spacing: 1px;
+    max-width: 265px;
 }
 
 button {
     padding: 10px 30px;
-    border-style: none;
     border-radius: 25px;
+    transition: 0.3s;
+    cursor: pointer;
+    box-sizing: border-box;
 }
+
 
 /**** Section Styles ****/
 #sedan {
@@ -66,6 +70,13 @@ button {
 
 #sedan button {
     color: var(--clr-bg-sedan);
+    border: 2px solid var(--clr-bg-sedan);
+}
+
+#sedan button:hover {
+    background-color: var(--clr-bg-sedan);
+    color: var(--clr-text-h);
+    border: 2px solid var(--clr-text-h);
 }
 
 #suv {
@@ -74,6 +85,13 @@ button {
 
 #suv button {
     color: var(--clr-bg-suv);
+    border: 2px solid var(--clr-bg-suv);
+}
+
+#suv button:hover {
+    background-color: var(--clr-bg-suv);
+    color: var(--clr-text-h);
+    border: 2px solid var(--clr-text-h);
 }
 
 #luxury {
@@ -84,6 +102,14 @@ button {
 
 #luxury button {
     color: var(--clr-bg-luxury);
+    border: 2px solid var(--clr-bg-luxury);
+}
+
+
+#luxury button:hover {
+    background-color: var(--clr-bg-luxury);
+    color: var(--clr-text-h);
+    border: 2px solid var(--clr-text-h);
 }
 
 @media (min-width: 1440px) {
